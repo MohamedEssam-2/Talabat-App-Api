@@ -9,7 +9,7 @@ namespace Shared.DTOS.OrderDTo
 {
     public class OrderToReturn
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         public string UserEmail { get; set; } = null!;
         public DateTimeOffset OrderDate { get; set; }
         public string DeliveryMethod { get; set; } = null!;
