@@ -43,6 +43,10 @@ namespace Services_Layer.Service.OrderService
                 orderItems.Add(orderItem);
 
             }
+            //Get Delivery Method
+            var deliveryMethod = await _unitOfWork.GetRepository<DeliveryMethod, int>()
+                .GetByIdAsync(orderDto.DeliveryMethodId)
+                ?? throw new DeliveryMethodNotFoundException(orderDto.DeliveryMethodId);
 
 
 
