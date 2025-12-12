@@ -1,0 +1,31 @@
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.deps.json
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Shared.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.csproj.AssemblyReference.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.AssemblyInfoInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.AssemblyInfo.cs
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.csproj.CoreCompileInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services.43708583.Up2Date
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\refint\Services Abstraction Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\ref\Services Abstraction Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.deps.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Services Abstraction Layer.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\bin\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services.43708583.Up2Date
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\refint\Services Abstraction Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\Services Abstraction Layer.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services Abstraction\obj\Debug\net8.0\ref\Services Abstraction Layer.dll

@@ -1,0 +1,25 @@
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.deps.json
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\refint\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\ref\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.deps.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\bin\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\refint\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\ref\Shared.dll

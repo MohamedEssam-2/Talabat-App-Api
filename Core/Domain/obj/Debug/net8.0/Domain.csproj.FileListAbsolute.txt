@@ -1,0 +1,25 @@
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.deps.json
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\refint\Domain.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\ref\Domain.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.deps.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\bin\Debug\net8.0\Domain.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\refint\Domain.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\Domain.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Domain\obj\Debug\net8.0\ref\Domain.dll

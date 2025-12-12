@@ -1,0 +1,35 @@
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.deps.json
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Services Abstraction Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Services Abstraction Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Shared.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.csproj.AssemblyReference.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.AssemblyInfoInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.AssemblyInfo.cs
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.csproj.CoreCompileInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presenta.B0A29D85.Up2Date
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\refint\Presentation Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\ref\Presentation Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.deps.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Presentation Layer.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Services Abstraction Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Services Abstraction Layer.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\bin\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presenta.B0A29D85.Up2Date
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\refint\Presentation Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\Presentation Layer.pdb
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Infrastructure\Presentation Layer\obj\Debug\net8.0\ref\Presentation Layer.dll

@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
+using System.Text;
+using System.Threading.Tasks;
+using Domain.Entitys;
+
+namespace Domain.Contracts
+{
+    public interface ISpecification<TEntity,Tkey> where TEntity : BaseEntity<Tkey>
+    {
+        public ICollection<Expression<Func<TEntity,object>>> Include_Expressions { get; }
+        public Expression<Func<TEntity,bool>> Criteria { get; }
+        public Expression<Func<TEntity, object>> OrderBy { get; }
+        public Expression<Func<TEntity,object>> OrderByDescending { get; }
+        public int Take { get; }
+        public int Skip { get; }
+        public bool IsPaginated { get;  }
+    }
+}

@@ -1,0 +1,28 @@
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Services Layer.deps.json
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Services Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Services Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Domain.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Services Abstraction Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Shared.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Domain.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Services Abstraction Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\bin\Debug\net8.0\Shared.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.csproj.AssemblyReference.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.AssemblyInfoInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.AssemblyInfo.cs
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.csproj.CoreCompileInputs.cache
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services.B4434C23.Up2Date
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\refint\Services Layer.dll
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.pdb
+I:\vs projects c#\project-2\API\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\ref\Services Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\refint\Services Layer.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Core\Services\obj\Debug\net8.0\Services Layer.pdb
