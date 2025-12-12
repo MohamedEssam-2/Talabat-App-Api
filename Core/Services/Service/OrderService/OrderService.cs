@@ -48,13 +48,13 @@ namespace Services_Layer.Service.OrderService
                 .GetByIdAsync(orderDto.DeliveryMethodId)
                 ?? throw new DeliveryMethodNotFoundException(orderDto.DeliveryMethodId);
 
+            var subtotal = orderItems.Sum(item => item.Price * item.Quantity);
 
+            var order = new Order(email, Address,deliveryMethod,orderItems,subtotal);
+            await _unitOfWork.GetRepository<Order, Guid>().AddAsync(order);
+            await _unitOfWork.SaveChangesAsync();
+            return _mapper.Map<OrderToReturn>(order);
 
-
-
-
-
-            var order = new Order(email, Address);
         }
     }
 }
