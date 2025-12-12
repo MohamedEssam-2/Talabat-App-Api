@@ -13,15 +13,16 @@ namespace Services_Layer.Service.OrderService
 {
     internal class OrderService(IMapper _mapper,IBasketRepository _basketRepository) : IOrderService
     {
-        public Task<OrderToReturn> CreateOrderAsync(OrderDto orderDto, string email)
+        public async Task<OrderToReturn> CreateOrderAsync(OrderDto orderDto, string email)
         {
             // Map AddressDto To OrderAddress 
             var Address = _mapper.Map<OrderAddress>(orderDto.address);
-            
+            var basket = await _basketRepository.GetBasketAsync(orderDto.BasketId);
 
 
 
-            var order = new Order(email, Address,);
+
+            var order = new Order(email, Address);
         }
     }
 }
