@@ -110,15 +110,16 @@ namespace Services_Layer
             var token = new JwtSecurityToken(
 
             #region Old Way 
-                  //issuer: "My Issuer Back End",
-                  //issuer: _configuration["JwtOptions:Issuer"],
-                  //audience: _configuration["JwtOptions:Audience"],
-                  //claims: claims,
-                  //expires: DateTime.Now.AddHours(1),
-                  //signingCredentials: credentials
+                   //issuer: "My Issuer Back End",
+                   //issuer: _configuration["JwtOptions:Issuer"],
+                   //audience: _configuration["JwtOptions:Audience"],
+                   //claims: claims,
+                   //expires: DateTime.Now.AddHours(1),
+                   //signingCredentials: credentials
             #endregion
             #region New way using JwtOptions Class
-                //issuer: JwtOptions.Issuer,
+                   //issuer: JwtOptions.Issuer,
+                issuer: JwtOptions.Issuer,
                 audience: JwtOptions.Audience,
                 claims: claims,
                 expires: DateTime.Now.AddDays(JwtOptions.DurationInDays),

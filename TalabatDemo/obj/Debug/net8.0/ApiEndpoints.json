@@ -222,6 +222,32 @@
     ]
   },
   {
+    "ContainingType": "Presentation_Layer.Controllers.OrderController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Order",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderDto",
+        "Type": "Shared.DTOS.OrderDTo.OrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.DTOS.OrderDTo.OrderToReturn",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Presentation_Layer.Controllers.ProductController",
     "Method": "GetAllProductsAsync",
     "RelativePath": "api/Product",

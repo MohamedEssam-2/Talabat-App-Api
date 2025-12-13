@@ -15,11 +15,11 @@ namespace DomainLayer.Models.OrderModels
         {
             
         }
-        public Order(string userEmail, OrderAddress address, DeliveryMethod deliveryMethod, ICollection<OrderItem> items, decimal subTotal)
+        public Order(string userEmail, OrderAddress address, int deliveryMethodId, ICollection<OrderItem> items, decimal subTotal)
         {
             UserEmail = userEmail;
             Address = address;
-            DeliveryMethod = deliveryMethod;
+            DeliveryMethodId = deliveryMethodId;
             Items = items;
             SubTotal = subTotal;
         }

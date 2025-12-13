@@ -11,6 +11,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using Services_Abstraction;
 using Services_Layer.Service;
+using Services_Layer.Service.BasketService;
+using Services_Layer.Service.OrderService;
+using Services_Layer.Service.ProductService;
 using Shared.Authenticaion;
 
 namespace Services_Layer.ServiceManger
@@ -29,6 +32,9 @@ namespace Services_Layer.ServiceManger
         private readonly Lazy<IAuthenticationService> _LazyAuthenticationService = new Lazy<IAuthenticationService>(() => new AuthenticationService(userManager, _configuration, _jwtOptions, mapper));
         public IAuthenticationService authenticationService => _LazyAuthenticationService.Value;
 
-        
+        private readonly Lazy<IOrderService> _lazyorderService = new Lazy<IOrderService>(() => new OrderService(mapper, _basketRepository,unitOfWork));
+        public IOrderService OrderService => _lazyorderService.Value;
+
+
     }
 }

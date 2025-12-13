@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Presistence_Layer.Data;
 using Presistence_Layer.Identity;
 using Presistence_Layer.Repositories;
+using Services_Abstraction;
+using Services_Layer.Service.OrderService;
 using StackExchange.Redis;
 
 namespace Presistence_Layer
@@ -26,6 +28,8 @@ namespace Presistence_Layer
                 options.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
             });
             Services.AddScoped<IBasketRepository, BasketRepository>();
+            Services.AddScoped<IOrderService, OrderService>();
+
             Services.AddSingleton<IConnectionMultiplexer>((_) =>
             {
                 return ConnectionMultiplexer.Connect(_configuration.GetConnectionString("RedisConnectionString"));

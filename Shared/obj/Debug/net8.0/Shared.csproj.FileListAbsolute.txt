@@ -23,3 +23,16 @@ I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\S
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\refint\Shared.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\Shared.pdb
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemoSolution\Shared\obj\Debug\net8.0\ref\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\Shared\bin\Debug\net8.0\Shared.deps.json
+I:\Downloads\cmder\Talabat-App-Api\Shared\bin\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\Shared\bin\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.csproj.AssemblyReference.cache
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.GeneratedMSBuildEditorConfig.editorconfig
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.AssemblyInfoInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.AssemblyInfo.cs
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.csproj.CoreCompileInputs.cache
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.sourcelink.json
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\refint\Shared.dll
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\Shared.pdb
+I:\Downloads\cmder\Talabat-App-Api\Shared\obj\Debug\net8.0\ref\Shared.dll

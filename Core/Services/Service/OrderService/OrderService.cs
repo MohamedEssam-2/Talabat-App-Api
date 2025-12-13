@@ -13,7 +13,7 @@ using Shared.DTOS.OrderDTo;
 
 namespace Services_Layer.Service.OrderService
 {
-    internal class OrderService(IMapper _mapper,IBasketRepository _basketRepository,IUnitOfWork _unitOfWork) : IOrderService
+    public class OrderService(IMapper _mapper,IBasketRepository _basketRepository,IUnitOfWork _unitOfWork) : IOrderService
     {
         public async Task<OrderToReturn> CreateOrderAsync(OrderDto orderDto, string email)
         {
@@ -50,9 +50,19 @@ namespace Services_Layer.Service.OrderService
 
             var subtotal = orderItems.Sum(item => item.Price * item.Quantity);
 
-            var order = new Order(email, Address,deliveryMethod,orderItems,subtotal);
-            await _unitOfWork.GetRepository<Order, Guid>().AddAsync(order);
-            await _unitOfWork.SaveChangesAsync();
+            var order = new Order(email, Address,deliveryMethod.Id,orderItems,subtotal);
+            try
+            {
+                await _unitOfWork.GetRepository<Order, Guid>().AddAsync(order);
+                await _unitOfWork.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                var message = ex.InnerException?.Message;
+                var full = ex.ToString(); // ⬅️ ده هيطلع كل حاجة
+                throw;
+            }
+
             return _mapper.Map<OrderToReturn>(order);
 
         }
