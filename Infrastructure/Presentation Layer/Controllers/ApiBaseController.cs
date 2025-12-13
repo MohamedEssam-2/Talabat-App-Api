@@ -13,17 +13,7 @@ namespace Presentation_Layer.Controllers
     [Route("api/[Controller]")]
     public abstract class ApiBaseController : ControllerBase
     {
-        protected string GetEmailFromToken()
-        {
-            return User.Claims
-                .FirstOrDefault(c =>
-                    c.Type == ClaimTypes.Email ||
-                    c.Type == "email" ||
-                    c.Type == "Email")?.Value
-                ?? throw new UnauthorizedAccessException("User is not authenticated");
-        }
-
-
+      protected string GetEmailFromToken() =>User.FindFirstValue(ClaimTypes.Email)!;
 
     }
 }

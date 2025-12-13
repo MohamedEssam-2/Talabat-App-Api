@@ -59,7 +59,7 @@ namespace Services_Layer.Service.OrderService
             catch (Exception ex)
             {
                 var message = ex.InnerException?.Message;
-                var full = ex.ToString(); // ⬅️ ده هيطلع كل حاجة
+                var full = ex.ToString();
                 throw;
             }
 
