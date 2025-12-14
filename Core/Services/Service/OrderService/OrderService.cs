@@ -66,5 +66,17 @@ namespace Services_Layer.Service.OrderService
             return _mapper.Map<OrderToReturn>(order);
 
         }
+
+        public async Task<IEnumerable<DeliveryMrthodDto>> GetDeliveryMethods()
+        {
+            var deliveryMethod = await _unitOfWork.GetRepository<DeliveryMethod, int>().GetAllAsync();
+            return _mapper.Map<IEnumerable<DeliveryMrthodDto>>(deliveryMethod);
+        }
+
+        public async Task<OrderToReturn> GetOrderById(Guid id)
+        {
+            var order = await _unitOfWork.GetRepository<Order, Guid>().GetByIdAsync(id);
+            return _mapper.Map<OrderToReturn>(order);
+        }
     }
 }

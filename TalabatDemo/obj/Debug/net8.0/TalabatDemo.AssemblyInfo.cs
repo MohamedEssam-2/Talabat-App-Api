@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TalabatDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d3a7ee9a8f3c8dec7f5bf5bf38d2330a71bc615")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e88895c6c97488c79a9f46540cc5a77346f5bb3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("TalabatDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TalabatDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
