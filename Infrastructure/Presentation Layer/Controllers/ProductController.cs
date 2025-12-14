@@ -19,7 +19,7 @@ namespace Presentation_Layer.Controllers
 
         //Get All Products
         [HttpGet] //BaseURL/api/Product
-        //[Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<PaginatedResult<ProductDTO>>> GetAllProductsAsync([FromQuery] ProductQueryParams queryParams)
         {
             var products = await serviceManger.ProductService.GetAllProductsAsync(queryParams);
