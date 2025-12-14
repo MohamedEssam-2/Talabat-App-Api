@@ -9,6 +9,7 @@ using Domain.Entitys.Product;
 using Domain.Execptions;
 using DomainLayer.Models.OrderModels;
 using Services_Abstraction;
+using Services_Layer.Specifications;
 using Shared.DTOS.OrderDTo;
 
 namespace Services_Layer.Service.OrderService
@@ -75,7 +76,8 @@ namespace Services_Layer.Service.OrderService
 
         public async Task<OrderToReturn> GetOrderById(Guid id)
         {
-            var order = await _unitOfWork.GetRepository<Order, Guid>().GetByIdAsync(id);
+            var spec = new OrderSpecification(id);
+            var order = await _unitOfWork.GetRepository<Order, Guid>().GetByIdAsync(spec);
             return _mapper.Map<OrderToReturn>(order);
         }
     }
