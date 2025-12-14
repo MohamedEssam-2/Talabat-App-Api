@@ -15,5 +15,7 @@ namespace Services_Abstraction
 
         public Task<OrderToReturn> GetOrderById(Guid id );
 
+        public Task<IEnumerable<OrderToReturn>> GetAllOrderAsync(string email);
+
     }
 }

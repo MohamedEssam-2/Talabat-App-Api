@@ -68,6 +68,13 @@ namespace Services_Layer.Service.OrderService
 
         }
 
+        public async Task<IEnumerable<OrderToReturn>> GetAllOrderAsync(string email)
+        {
+            var spec = new OrderSpecification(email);
+            var order = await _unitOfWork.GetRepository<Order, Guid>().GetAllAsync(spec);
+            return _mapper.Map<IEnumerable<OrderToReturn>>(order);
+        }
+
         public async Task<IEnumerable<DeliveryMrthodDto>> GetDeliveryMethods()
         {
             var deliveryMethod = await _unitOfWork.GetRepository<DeliveryMethod, int>().GetAllAsync();

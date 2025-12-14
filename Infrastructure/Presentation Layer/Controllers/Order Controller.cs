@@ -33,5 +33,12 @@ namespace Presentation_Layer.Controllers
             var order = await _serviceManager.OrderService.GetOrderById(id);
             return Ok(order);
         }
+        [Authorize]
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<OrderToReturn>>> GetAllOrderAsync()
+        {
+            var orders = await _serviceManager.OrderService.GetAllOrderAsync(GetEmailFromToken());
+            return Ok(orders);
+        }
     }
 }
