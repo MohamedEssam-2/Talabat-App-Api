@@ -16,7 +16,7 @@ using TalabatDemo.CustomMiddleWare;
 using TalabatDemo.Extentions;
 using TalabatDemo.Factory;
 using static System.Runtime.InteropServices.JavaScript.JSType;
-
+using Swashbuckle.AspNetCore.SwaggerUI;
 
 
 namespace TalabatDemo
@@ -75,7 +75,17 @@ namespace TalabatDemo
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                app.UseSwaggerUI();
+                app.UseSwaggerUI(options =>
+                {
+                    options.ConfigObject = new ConfigObject()
+                    {
+                        DisplayRequestDuration = true,
+                    };
+                    options.DocumentTitle = "Talabat API Documentation";
+                    options.DocExpansion(DocExpansion.None);
+                    options.EnableFilter();
+
+                });
             }
             app.UseStaticFiles();
             app.UseHttpsRedirection();

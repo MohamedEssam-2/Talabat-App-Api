@@ -3,104 +3,12 @@
   "WorkspaceRootPath": "I:\\Downloads\\cmder\\Talabat-App-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presentation layer\\controllers\\order controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|solutionrelative:infrastructure\\presentation layer\\controllers\\order controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\service\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\service\\orderservice\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\specifications\\orderspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\specifications\\orderspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presentation layer\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|solutionrelative:infrastructure\\presentation layer\\controllers\\apibasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\customexceptionhandlermiddleware\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\customexceptionhandlermiddleware\\customexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8508BB9F-14BD-4547-8EC5-1021FDF57F63}|Core\\Services Abstraction\\Services Abstraction Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services abstraction\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8508BB9F-14BD-4547-8EC5-1021FDF57F63}|Core\\Services Abstraction\\Services Abstraction Layer.csproj|solutionrelative:core\\services abstraction\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\mappingprofiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\mappingprofiles\\orderprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECD86CA-25AB-4FDE-A27C-B8E3E2A9E5AD}|Core\\Domain\\Domain.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\domain\\entitys\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECD86CA-25AB-4FDE-A27C-B8E3E2A9E5AD}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entitys\\order\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C88D384-F63A-4E80-8533-5B264D2955C7}|Infrastructure\\Presistence Layer\\Presistence Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presistence layer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C88D384-F63A-4E80-8533-5B264D2955C7}|Infrastructure\\Presistence Layer\\Presistence Layer.csproj|solutionrelative:infrastructure\\presistence layer\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7ECD86CA-25AB-4FDE-A27C-B8E3E2A9E5AD}|Core\\Domain\\Domain.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\domain\\entitys\\order\\deliverymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7ECD86CA-25AB-4FDE-A27C-B8E3E2A9E5AD}|Core\\Domain\\Domain.csproj|solutionrelative:core\\domain\\entitys\\order\\deliverymethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|i:\\downloads\\cmder\\talabat-app-api\\shared\\dtos\\orderdto\\deliverymrthoddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\orderdto\\deliverymrthoddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\specifications\\productcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\specifications\\productcountspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\specifications\\productwithtypeandbrandspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\specifications\\productwithtypeandbrandspecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\service\\basketservice\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\service\\basketservice\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presentation layer\\controllers\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|solutionrelative:infrastructure\\presentation layer\\controllers\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presentation layer\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|solutionrelative:infrastructure\\presentation layer\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presentation layer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{832E7304-9614-434C-9A80-47244770CDDF}|Infrastructure\\Presentation Layer\\Presentation Layer.csproj|solutionrelative:infrastructure\\presentation layer\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5C88D384-F63A-4E80-8533-5B264D2955C7}|Infrastructure\\Presistence Layer\\Presistence Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\infrastructure\\presistence layer\\infrastructureapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5C88D384-F63A-4E80-8533-5B264D2955C7}|Infrastructure\\Presistence Layer\\Presistence Layer.csproj|solutionrelative:infrastructure\\presistence layer\\infrastructureapplicationregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|i:\\downloads\\cmder\\talabat-app-api\\core\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B3C3159-6A5E-4F44-B693-B673CE3043F0}|Core\\Services\\Services Layer.csproj|solutionrelative:core\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|i:\\downloads\\cmder\\talabat-app-api\\shared\\authenticaion\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|solutionrelative:shared\\authenticaion\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|i:\\downloads\\cmder\\talabat-app-api\\shared\\dtos\\orderdto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0EC42C4E-9F82-4E19-B8E8-CE7BF3B7F86E}|Shared\\Shared.csproj|solutionrelative:shared\\dtos\\orderdto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\extentions\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\extentions\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,46 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Service\\OrderService\\OrderService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Service\\OrderService\\OrderService.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Service\\OrderService\\OrderService.cs",
-              "RelativeToolTip": "Core\\Services\\Service\\OrderService\\OrderService.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAlwEsAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
+              "RelativeDocumentMoniker": "TalabatDemo\\Program.cs",
+              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
+              "RelativeToolTip": "TalabatDemo\\Program.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAMwFUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T18:57:53.256Z",
+              "WhenOpened": "2026-01-17T23:24:26.848Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\DTOS\\OrderDTo\\OrderDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DTOS\\OrderDTo\\OrderDto.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\DTOS\\OrderDTo\\OrderDto.cs",
-              "RelativeToolTip": "Shared\\DTOS\\OrderDTo\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ServiceRegistration.cs",
+              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Extentions\\ServiceRegistration.cs",
+              "RelativeDocumentMoniker": "TalabatDemo\\Extentions\\ServiceRegistration.cs",
+              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Extentions\\ServiceRegistration.cs",
+              "RelativeToolTip": "TalabatDemo\\Extentions\\ServiceRegistration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T19:43:22.658Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderProfile.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\MappingProfiles\\OrderProfile.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\MappingProfiles\\OrderProfile.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\MappingProfiles\\OrderProfile.cs",
-              "RelativeToolTip": "Core\\Services\\MappingProfiles\\OrderProfile.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAawBMAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T22:02:50.185Z",
+              "WhenOpened": "2026-01-17T23:25:13.133Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -160,287 +55,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiBaseController.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\ApiBaseController.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presentation Layer\\Controllers\\ApiBaseController.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\ApiBaseController.cs",
-              "RelativeToolTip": "Infrastructure\\Presentation Layer\\Controllers\\ApiBaseController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAtwA8AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T00:48:07.742Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CustomExceptionHandlerMiddleWare.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\CustomExceptionHandlerMiddleWare\\CustomExceptionHandlerMiddleWare.cs",
-              "RelativeDocumentMoniker": "TalabatDemo\\CustomExceptionHandlerMiddleWare\\CustomExceptionHandlerMiddleWare.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\CustomExceptionHandlerMiddleWare\\CustomExceptionHandlerMiddleWare.cs",
-              "RelativeToolTip": "TalabatDemo\\CustomExceptionHandlerMiddleWare\\CustomExceptionHandlerMiddleWare.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAtwBkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:02:52.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderSpecification.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\OrderSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\OrderSpecification.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\OrderSpecification.cs",
-              "RelativeToolTip": "Core\\Services\\Specifications\\OrderSpecification.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAawBIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T20:57:13.432Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presistence Layer\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presistence Layer\\Repositories\\GenericRepository.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presistence Layer\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Presistence Layer\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAEwDwAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:33:15.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseSpecification.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\BaseSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\BaseSpecification.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\BaseSpecification.cs",
-              "RelativeToolTip": "Core\\Services\\Specifications\\BaseSpecification.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAADgvygAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:41:22.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Order Controller.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\Order Controller.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presentation Layer\\Controllers\\Order Controller.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\Order Controller.cs",
-              "RelativeToolTip": "Infrastructure\\Presentation Layer\\Controllers\\Order Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T00:40:27.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Order.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Domain\\Entitys\\Order\\Order.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Entitys\\Order\\Order.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Domain\\Entitys\\Order\\Order.cs",
-              "RelativeToolTip": "Core\\Domain\\Entitys\\Order\\Order.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswCQAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T00:43:03.276Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IOrderService.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services Abstraction\\IOrderService.cs",
-              "RelativeDocumentMoniker": "Core\\Services Abstraction\\IOrderService.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services Abstraction\\IOrderService.cs",
-              "RelativeToolTip": "Core\\Services Abstraction\\IOrderService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T20:35:57.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "DeliveryMethod.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Domain\\Entitys\\Order\\DeliveryMethod.cs",
-              "RelativeDocumentMoniker": "Core\\Domain\\Entitys\\Order\\DeliveryMethod.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Domain\\Entitys\\Order\\DeliveryMethod.cs",
-              "RelativeToolTip": "Core\\Domain\\Entitys\\Order\\DeliveryMethod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:24:54.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProductCountSpecification.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\ProductCountSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\ProductCountSpecification.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\ProductCountSpecification.cs",
-              "RelativeToolTip": "Core\\Services\\Specifications\\ProductCountSpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:43:07.611Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DeliveryMrthodDto.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\DTOS\\OrderDTo\\DeliveryMrthodDto.cs",
-              "RelativeDocumentMoniker": "Shared\\DTOS\\OrderDTo\\DeliveryMrthodDto.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\DTOS\\OrderDTo\\DeliveryMrthodDto.cs",
-              "RelativeToolTip": "Shared\\DTOS\\OrderDTo\\DeliveryMrthodDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T20:35:08.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductWithTypeAndBrandSpecification.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\ProductWithTypeAndBrandSpecification.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Specifications\\ProductWithTypeAndBrandSpecification.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Specifications\\ProductWithTypeAndBrandSpecification.cs",
-              "RelativeToolTip": "Core\\Services\\Specifications\\ProductWithTypeAndBrandSpecification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:43:09.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Service\\BasketService\\BasketService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\Service\\BasketService\\BasketService.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\Service\\BasketService\\BasketService.cs",
-              "RelativeToolTip": "Core\\Services\\Service\\BasketService\\BasketService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAawAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:20:44.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Basket.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\Basket.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presentation Layer\\Controllers\\Basket.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\Basket.cs",
-              "RelativeToolTip": "Infrastructure\\Presentation Layer\\Controllers\\Basket.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAawBMAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T17:58:51.629Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\appsettings.json",
-              "RelativeDocumentMoniker": "TalabatDemo\\appsettings.json",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\appsettings.json",
-              "RelativeToolTip": "TalabatDemo\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-13T01:05:48.611Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presentation Layer\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "Infrastructure\\Presentation Layer\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAawC0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:36:33.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presentation Layer\\Controllers\\ProductController.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presentation Layer\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Infrastructure\\Presentation Layer\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAawBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T18:01:36.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\Authenticaion\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "Shared\\Authenticaion\\JwtOptions.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Shared\\Authenticaion\\JwtOptions.cs",
-              "RelativeToolTip": "Shared\\Authenticaion\\JwtOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:02:41.178Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InfrastructureApplicationRegistration.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presistence Layer\\InfrastructureApplicationRegistration.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Presistence Layer\\InfrastructureApplicationRegistration.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Infrastructure\\Presistence Layer\\InfrastructureApplicationRegistration.cs",
-              "RelativeToolTip": "Infrastructure\\Presistence Layer\\InfrastructureApplicationRegistration.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAtwCIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:03:52.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Product.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "TalabatDemo\\Models\\Product.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Models\\Product.cs",
-              "RelativeToolTip": "TalabatDemo\\Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:08:56.61Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
-              "RelativeDocumentMoniker": "TalabatDemo\\Program.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
-              "RelativeToolTip": "TalabatDemo\\Program.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAtwFEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T00:59:18.602Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Core\\Services\\AuthenticationService.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\Core\\Services\\AuthenticationService.cs",
-              "RelativeToolTip": "Core\\Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAawHkAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-13T01:03:04.778Z"
             }
           ]
         },
