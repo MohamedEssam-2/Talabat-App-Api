@@ -10,7 +10,8 @@ namespace Services_Layer
     internal class ServiceManagerWithFactoryDelegate(Func<IProductService> productServiceFactory,
                                                      Func<IBasketService> basketServiceFactory,
                                                      Func<IOrderService> orderServiceFactory,
-                                                     Func<IAuthenticationService> authenticationServiceFactory) : IServiceManager
+                                                     Func<IAuthenticationService> authenticationServiceFactory,
+                                                     Func<ICacheService> cacheFactory) : IServiceManager
     {
         public IProductService ProductService => productServiceFactory.Invoke();
 
@@ -19,5 +20,7 @@ namespace Services_Layer
         public IAuthenticationService authenticationService => authenticationServiceFactory.Invoke();
 
         public IOrderService OrderService => orderServiceFactory.Invoke();
+
+        public ICacheService CacheService => cacheFactory.Invoke();
     }
 }

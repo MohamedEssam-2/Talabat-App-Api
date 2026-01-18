@@ -9,6 +9,6 @@ namespace Services_Abstraction
     public interface ICacheService
     {
         Task<string?> GetCacheAsync(string cacheKey);
-        Task SetCacheAsync(string cacheKey, string cacheValue, TimeSpan duration);
+        Task SetCacheAsync(string cacheKey, object cacheValue, TimeSpan duration);
     }
 }

@@ -36,7 +36,7 @@ namespace Services_Layer
             Services.AddScoped<Func<IOrderService>>(serviceProvider => () => serviceProvider.GetRequiredService<IOrderService>());
 
             Services.AddScoped<ICacheService,CacheService>();
-
+            Services.AddScoped<Func<ICacheService>>(serviceProvider => () => serviceProvider.GetRequiredService<ICacheService>());
             return Services;
         }
     }
