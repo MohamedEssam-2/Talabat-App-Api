@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Services_Abstraction;
+using Services_Layer.Service;
 using Services_Layer.Service.BasketService;
 using Services_Layer.Service.OrderService;
 using Services_Layer.Service.ProductService;
@@ -34,7 +35,7 @@ namespace Services_Layer
             Services.AddScoped<IOrderService, OrderService>();
             Services.AddScoped<Func<IOrderService>>(serviceProvider => () => serviceProvider.GetRequiredService<IOrderService>());
 
-
+            Services.AddScoped<ICacheService,CacheService>();
 
             return Services;
         }
