@@ -4,9 +4,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.IdentityModel.Tokens.Experimental;
+using Microsoft.OpenApi.Models;
 using Shared.Authenticaion;
 using TalabatDemo.Factory;
-
 namespace TalabatDemo.Extentions
 {
     public static class ServiceRegistration
@@ -14,7 +14,33 @@ namespace TalabatDemo.Extentions
         public static IServiceCollection AddSwaggerService(this IServiceCollection Services)
         {
             Services.AddEndpointsApiExplorer();
-            Services.AddSwaggerGen();
+            Services.AddSwaggerGen(options =>
+            {
+            options.AddSecurityDefinition("Bearer",new OpenApiSecurityScheme()
+            {
+                In=ParameterLocation.Header,
+                Name="Authorization",
+                Type=SecuritySchemeType.ApiKey,
+                Scheme="Bearer",
+                Description="Enter 'Bearer' Followed By Spac And Your Token "
+            });
+                options.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                    {
+                        new OpenApiSecurityScheme()
+                        {
+                            Reference=new OpenApiReference()
+                            {
+                                Id="Bearer",
+                                Type=ReferenceType.SecurityScheme
+                            }
+                          
+                        },  new string[]{}
+                    }
+
+                });
+
+            });
             return Services;
         }
         public static IServiceCollection AddWebApplicationServices(this IServiceCollection Services, IConfiguration configuration)

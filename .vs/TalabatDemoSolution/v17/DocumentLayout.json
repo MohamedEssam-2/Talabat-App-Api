@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "I:\\Downloads\\cmder\\Talabat-App-Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\extentions\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\extentions\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|i:\\downloads\\cmder\\talabat-app-api\\talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{968D5B68-5139-48C0-8EB8-1686D1F475EE}|TalabatDemo\\TalabatDemo.csproj|solutionrelative:talabatdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
               "RelativeDocumentMoniker": "TalabatDemo\\Program.cs",
               "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Program.cs",
               "RelativeToolTip": "TalabatDemo\\Program.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAMwFUAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAMwFYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T23:24:26.848Z",
               "IsPinned": true,
@@ -36,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ServiceRegistration.cs",
               "DocumentMoniker": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Extentions\\ServiceRegistration.cs",
               "RelativeDocumentMoniker": "TalabatDemo\\Extentions\\ServiceRegistration.cs",
-              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Extentions\\ServiceRegistration.cs",
-              "RelativeToolTip": "TalabatDemo\\Extentions\\ServiceRegistration.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "I:\\Downloads\\cmder\\Talabat-App-Api\\TalabatDemo\\Extentions\\ServiceRegistration.cs*",
+              "RelativeToolTip": "TalabatDemo\\Extentions\\ServiceRegistration.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAawBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-17T23:25:13.133Z",
               "IsPinned": true,

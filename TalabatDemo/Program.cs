@@ -84,6 +84,7 @@ namespace TalabatDemo
                     options.DocumentTitle = "Talabat API Documentation";
                     options.DocExpansion(DocExpansion.None);
                     options.EnableFilter();
+                    options.EnablePersistAuthorization();
 
                 });
             }
