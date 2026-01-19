@@ -19,7 +19,9 @@ namespace Services_Layer
         public static IServiceCollection AddApplicationService(this IServiceCollection Services,IConfiguration _configuration)
         {
             Services.AddAutoMapper(x => { }, typeof(ServiceLayerAssemblyReference).Assembly);//Add All profiles in Service Layer Assembly
-            Services.AddScoped<IServiceManager, ServiceManager>();
+            //Services.AddScoped<IServiceManager, ServiceManager>();
+            Services.AddScoped<IServiceManager, ServiceManagerWithFactoryDelegate>();
+
             Services.Configure<JwtOptions>(_configuration.GetSection("JwtOptions"));
 
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Presistence Layer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+87ec45f97881213105edaf14af31c14dc5e71b0d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9468ae0bc1657879e07f720f35f455acd06c98d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Presistence Layer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Presistence Layer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

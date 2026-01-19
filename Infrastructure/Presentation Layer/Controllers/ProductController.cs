@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Presentation_Layer.Attributes;
 using Services_Abstraction;
 using Shared;
 using Shared.DTOS.Product;
@@ -18,8 +19,9 @@ namespace Presentation_Layer.Controllers
     {
 
         //Get All Products
+        [CacheRedis]
         [HttpGet] //BaseURL/api/Product
-        [Authorize()]
+        //[Authorize()]
         public async Task<ActionResult<PaginatedResult<ProductDTO>>> GetAllProductsAsync([FromQuery] ProductQueryParams queryParams)
         {
             var products = await serviceManger.ProductService.GetAllProductsAsync(queryParams);

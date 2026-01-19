@@ -18,7 +18,7 @@ using Shared.Authenticaion;
 
 namespace Services_Layer.ServiceManger
 {
-    public class ServiceManager(IUnitOfWork unitOfWork, IMapper mapper,IBasketRepository _basketRepository,UserManager<ApplicationUser>userManager,IConfiguration _configuration,IOptions<JwtOptions>_jwtOptions) : IServiceManager
+    public class ServiceManager(IUnitOfWork unitOfWork, IMapper mapper,IBasketRepository _basketRepository,UserManager<ApplicationUser>userManager,IConfiguration _configuration,IOptions<JwtOptions>_jwtOptions,ICacheRepository cacheRepository) : IServiceManager
     {
         //Contains All Services in one Place such as unitOfWork contains all Repositories
         //Lazy Loading for better Performance thats mean create service only when its needed 
@@ -35,6 +35,9 @@ namespace Services_Layer.ServiceManger
         private readonly Lazy<IOrderService> _lazyorderService = new Lazy<IOrderService>(() => new OrderService(mapper, _basketRepository,unitOfWork));
         public IOrderService OrderService => _lazyorderService.Value;
 
+        private readonly Lazy<ICacheService> _lazyCacheService = new Lazy<ICacheService>(() => new CacheService(cacheRepository));
+
+        public ICacheService CacheService => _lazyCacheService.Value;
 
     }
 }

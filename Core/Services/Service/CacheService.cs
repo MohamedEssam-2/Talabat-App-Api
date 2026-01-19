@@ -17,7 +17,7 @@ namespace Services_Layer.Service
             return cacheValue;
         }
 
-        public Task SetCacheAsync(string cacheKey, string cacheValue, TimeSpan duration)
+        public Task SetCacheAsync(string cacheKey, object cacheValue, TimeSpan duration)
         {
             var valueToReturn = JsonSerializer.Serialize(cacheValue);
             return _cacheRepository.SetCacheAsync(cacheKey, valueToReturn, duration);
