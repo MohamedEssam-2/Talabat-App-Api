@@ -19,11 +19,13 @@ namespace Services_Layer.MappingProfiles
 
             CreateMap<Order, OrderToReturn>()
                 .ForMember(dest => dest.DeliveryMethod, opt => opt.MapFrom(src => src.DeliveryMethod.ShortName))
+                .ForMember(dest => dest.ShipToAddress, opt => opt.MapFrom(src => src.Address))
+                .ForMember(dest => dest.BuyerEmail, opt => opt.MapFrom(src => src.UserEmail))
                 .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.OrderStatus.ToString()));
 
             CreateMap<OrderItem, OrderItemDto>()
                 .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
-                .ForMember(dest => dest.PictureUrl, opt => opt.MapFrom<OrderPictureUrlResolver>());
+                .ForMember(dest => dest.PictureUrl , opt => opt.MapFrom<OrderPictureUrlResolver>());
 
             CreateMap<DeliveryMethod, DeliveryMrthodDto>()
                 .ForMember(dest=>dest.Cost , opt=>opt.MapFrom(src=>src.Price));
