@@ -12,7 +12,7 @@ namespace Shared.DTOS.OrderDTo
         public string ShortName { get; set; } = null!; //Campany Name
         public string Description { get; set; } = null!; //Details
         public string DeliveryTime { get; set; } = null!;//Estimated Time
-        public decimal Price { get; set; }
+        public decimal Cost { get; set; }
 
 
 
