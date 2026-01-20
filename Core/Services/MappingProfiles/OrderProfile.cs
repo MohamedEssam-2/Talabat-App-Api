@@ -18,7 +18,8 @@ namespace Services_Layer.MappingProfiles
             CreateMap<AddressDto,OrderAddress>().ReverseMap();
 
             CreateMap<Order, OrderToReturn>()
-                .ForMember(dest => dest.DeliveryMethod, opt => opt.MapFrom(src => src.DeliveryMethod.ShortName)).ReverseMap();
+                .ForMember(dest => dest.DeliveryMethod, opt => opt.MapFrom(src => src.DeliveryMethod.ShortName))
+                .ForMember(dest => dest.Status, opt => opt.MapFrom(src => src.OrderStatus.ToString()));
 
             CreateMap<OrderItem, OrderItemDto>()
                 .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.ProductName))
