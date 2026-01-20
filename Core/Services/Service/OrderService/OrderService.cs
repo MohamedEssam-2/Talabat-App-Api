@@ -19,7 +19,7 @@ namespace Services_Layer.Service.OrderService
         public async Task<OrderToReturn> CreateOrderAsync(OrderDto orderDto, string email)
         {
             // Map AddressDto To OrderAddress 
-            var Address = _mapper.Map<OrderAddress>(orderDto.address);
+            var Address = _mapper.Map<OrderAddress>(orderDto.ShipToAddress);
 
             // Get Basket With Items
             var basket = await _basketRepository.GetBasketAsync(orderDto.BasketId)
