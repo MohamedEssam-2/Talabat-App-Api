@@ -13,8 +13,8 @@ namespace Shared.DTOS.Product
         public string Description { get; set; } = null!;
         public string PictureUrl { get; set; } = null!;
         public decimal Price { get; set; }
-        public string BrandName { get; set; } = null!;
-        public string TypeName { get; set; } = null!;
+        public string ProductBrand { get; set; } = null!;
+        public string ProductType { get; set; } = null!;
 
 
     }
