@@ -11,7 +11,7 @@ namespace Shared.DTOS.BasketDTO
     {
         public int Id { get; set; } //Product have int id 
 
-        public string Name { get; set; } = null!;
+        public string ProductName { get; set; } = null!;
 
         public string PictureUrl { get; set; } = null!;
 

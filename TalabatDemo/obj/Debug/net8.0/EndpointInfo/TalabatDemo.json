@@ -168,6 +168,35 @@
         }
       }
     },
+    "/api/Authentication/Address": {
+      "get": {
+        "tags": [
+          "Authentication"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserDto"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Authentication/CreateOrUpdateAddress": {
       "put": {
         "tags": [
@@ -498,10 +527,10 @@
         }
       }
     },
-    "/api/Product": {
+    "/api/Products": {
       "get": {
         "tags": [
-          "Product"
+          "Products"
         ],
         "parameters": [
           {
@@ -575,10 +604,10 @@
         }
       }
     },
-    "/api/Product/{id}": {
+    "/api/Products/{id}": {
       "get": {
         "tags": [
-          "Product"
+          "Products"
         ],
         "parameters": [
           {
@@ -615,10 +644,10 @@
         }
       }
     },
-    "/api/Product/brands": {
+    "/api/Products/brands": {
       "get": {
         "tags": [
-          "Product"
+          "Products"
         ],
         "responses": {
           "200": {
@@ -653,10 +682,10 @@
         }
       }
     },
-    "/api/Product/types": {
+    "/api/Products/types": {
       "get": {
         "tags": [
-          "Product"
+          "Products"
         ],
         "responses": {
           "200": {
@@ -772,6 +801,24 @@
               "$ref": "#/components/schemas/BasketItemDTO"
             },
             "nullable": true
+          },
+          "clientSecret": {
+            "type": "string",
+            "nullable": true
+          },
+          "paymentIntentId": {
+            "type": "string",
+            "nullable": true
+          },
+          "deliveryMethodId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "shippingPrice": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -783,7 +830,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "productName": {
             "type": "string",
             "nullable": true
           },
@@ -839,7 +886,7 @@
             "type": "string",
             "nullable": true
           },
-          "price": {
+          "cost": {
             "type": "number",
             "format": "double"
           }
@@ -872,7 +919,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "address": {
+          "shipToAddress": {
             "$ref": "#/components/schemas/AddressDto"
           }
         },
@@ -911,7 +958,7 @@
             "type": "string",
             "format": "uuid"
           },
-          "userEmail": {
+          "buyerEmail": {
             "type": "string",
             "nullable": true
           },
@@ -923,7 +970,11 @@
             "type": "string",
             "nullable": true
           },
-          "address": {
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "shipToAddress": {
             "$ref": "#/components/schemas/AddressDto"
           },
           "subTotal": {
@@ -967,11 +1018,11 @@
             "type": "number",
             "format": "double"
           },
-          "brandName": {
+          "productBrand": {
             "type": "string",
             "nullable": true
           },
-          "typeName": {
+          "productType": {
             "type": "string",
             "nullable": true
           }

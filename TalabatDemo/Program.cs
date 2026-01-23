@@ -39,6 +39,15 @@ namespace TalabatDemo
             //builder.Services.AddEndpointsApiExplorer();
             //builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyHeader();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyOrigin();
+                });
+            });
 
             builder.Services.AddInfrastructureServices(builder.Configuration);
             //builder.Services.AddDbContext<StoreDbContext>( options =>
@@ -92,6 +101,7 @@ namespace TalabatDemo
             app.UseHttpsRedirection();
 
             app.UseAuthentication();
+            app.UseCors("AllowAll");
             app.UseAuthorization();
 
 

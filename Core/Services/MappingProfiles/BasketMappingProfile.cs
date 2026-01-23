@@ -14,7 +14,10 @@ namespace Services_Layer.MappingProfiles
         public BasketMappingProfile()
         {
             CreateMap<CustomerBasket,BasketDTO>().ReverseMap();
-            CreateMap<BasketItem,BasketItemDTO>().ReverseMap();
+
+            CreateMap<BasketItem,BasketItemDTO>()
+                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Name))
+                .ReverseMap();
 
 
         }

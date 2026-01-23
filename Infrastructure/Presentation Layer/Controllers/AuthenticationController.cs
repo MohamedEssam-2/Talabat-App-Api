@@ -44,13 +44,13 @@ namespace Presentation_Layer.Controllers
             var AppUser = await serviceManager.authenticationService.GetCurrentUserAddress(email!);
             return Ok(AppUser);
         }
-        //[HttpGet("Address")]
-        //public async Task<ActionResult<UserDto>> GetCurrentUserAddress()
-        //{
-        //    var email = User.FindFirst(ClaimTypes.Email)?.Value;
-        //    var AppUser = await serviceManager.authenticationService.GetCurrentUserAddress(email!);
-        //    return Ok(AppUser);
-        //}
+        [HttpGet("Address")]
+        public async Task<ActionResult<UserDto>> GetCurrentUserAddress()
+        {
+            var email = User.FindFirst(ClaimTypes.Email)?.Value;
+            var AppUser = await serviceManager.authenticationService.GetCurrentUserAddress(email!);
+            return Ok(AppUser);
+        }
         [HttpPut("CreateOrUpdateAddress")]
         public async Task<ActionResult<UserDto>> UpdateCurrentUserAddress(AddressDto addressDto)
         {

@@ -227,7 +227,6 @@ I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Microsoft.Identi
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Microsoft.OpenApi.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Mono.TextTemplating.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\StackExchange.Redis.dll
@@ -242,15 +241,12 @@ I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Compositi
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Composition.Runtime.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Composition.TypedParts.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Drawing.Common.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Formats.Asn1.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.IO.Hashing.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Memory.Data.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Runtime.Caching.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Security.Permissions.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\System.Windows.Extensions.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -309,12 +305,7 @@ I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win-arm
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Domain.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Presentation Layer.dll
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Presistence Layer.dll
@@ -352,3 +343,5 @@ I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\obj\Debug\net8.0\refint\TalabatDe
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\obj\Debug\net8.0\TalabatDemo.pdb
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\obj\Debug\net8.0\TalabatDemo.genruntimeconfig.cache
 I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\obj\Debug\net8.0\ref\TalabatDemo.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+I:\Downloads\cmder\Talabat-App-Api\TalabatDemo\bin\Debug\net8.0\Stripe.net.dll

@@ -27,7 +27,8 @@ namespace Services_Layer
 
         public async Task<UserDto> LoginAsync(LoginDto loginDto) //login dto contains real Email and Password from Controllers
         {
-            //Check if Email/Password exists
+            //Check if Email/Password exists in DB
+            //UserMangaer Take Email from LoginDto And Find it in DB Then Return it as ApplicationUser
             var user = await _userManager.FindByEmailAsync(loginDto.Email);
             if (user is null) { throw new UserNotfoundException(loginDto.Email); }
 
@@ -37,6 +38,7 @@ namespace Services_Layer
             else
             {
                 //password is Valid 
+                //If True => Pass the data From ApplicationUser to userDto For Security(Return UserDto Without Password or Senstive data) and Separation of Concerns
                 return new UserDto
                 {
                     Email = user.Email!,
@@ -55,11 +57,12 @@ namespace Services_Layer
                 DisplayName = registerDto.DisplayName,
                 Email = registerDto.Email,
                 PhoneNumber = registerDto.PhoneNumber,
-                UserName = registerDto.Email
+                UserName = registerDto.UserName ?? registerDto.Email.Split('@')[0], //if email is null use the part before @ as username
             };
             var result = await _userManager.CreateAsync(user, registerDto.Password);
             if (result.Succeeded)
             {
+                // If True => Pass the data from model to userDto For Security(Return UserDto Without Password or Senstive data) and Separation of Concerns
                 return new UserDto()
                 {
                     Email = user.Email!,
@@ -133,8 +136,13 @@ namespace Services_Layer
 
         public async Task<bool> CheckEmailAsync(string email)
         {
+            //Check For Email in DB 
             var user = await _userManager.FindByEmailAsync(email);
-            return user is not null;
+            return user is not null; // abbreviation of if 
+            //if (user != null)
+            //    return true;
+            //else
+            //    return false;
         }
         public async Task<UserDto> GetCurrentUserAsync(string email)
         {

@@ -11,9 +11,9 @@ namespace Shared.DTOS.IdentityDto
     {
         public string Email { get; set; } = null!;
         public string Password { get; set; } = null!; //Handling Password Masking in Mvc or by the front-end dev
-        public string UserName { get; set; } = null!;
+        public string? UserName { get; set; } 
         public string DisplayName { get; set; } = null!;
         [Phone]
-        public string PhoneNumber { get; set; } = null!;
+        public string? PhoneNumber { get; set; } 
     }
 }

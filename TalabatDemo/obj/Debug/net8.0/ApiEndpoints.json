@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "Presentation_Layer.Controllers.AuthenticationController",
+    "Method": "GetCurrentUserAddress",
+    "RelativePath": "api/Authentication/Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Shared.DTOS.IdentityDto.UserDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Presentation_Layer.Controllers.AuthenticationController",
     "Method": "CheckEmail",
     "RelativePath": "api/Authentication/CheckEmail",
     "HttpMethod": "GET",
@@ -124,7 +144,7 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.Basket",
+    "ContainingType": "Presentation_Layer.Controllers.BasketController",
     "Method": "GetBasket",
     "RelativePath": "api/Basket",
     "HttpMethod": "GET",
@@ -150,7 +170,7 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.Basket",
+    "ContainingType": "Presentation_Layer.Controllers.BasketController",
     "Method": "CreateOrUpdateBasket",
     "RelativePath": "api/Basket",
     "HttpMethod": "POST",
@@ -176,7 +196,7 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.Basket",
+    "ContainingType": "Presentation_Layer.Controllers.BasketController",
     "Method": "DeleteBasket",
     "RelativePath": "api/Basket",
     "HttpMethod": "DELETE",
@@ -294,9 +314,9 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.ProductController",
+    "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetAllProductsAsync",
-    "RelativePath": "api/Product",
+    "RelativePath": "api/Products",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -345,9 +365,9 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.ProductController",
+    "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetProductByIdAsync",
-    "RelativePath": "api/Product/{id}",
+    "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -371,9 +391,9 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.ProductController",
+    "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetAllBrandsAsync",
-    "RelativePath": "api/Product/brands",
+    "RelativePath": "api/Products/brands",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -391,9 +411,9 @@
     ]
   },
   {
-    "ContainingType": "Presentation_Layer.Controllers.ProductController",
+    "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetAllTypesAsync",
-    "RelativePath": "api/Product/types",
+    "RelativePath": "api/Products/types",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
