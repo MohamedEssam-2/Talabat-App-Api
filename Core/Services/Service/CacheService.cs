@@ -11,15 +11,18 @@ namespace Services_Layer.Service
 {
     public class CacheService (ICacheRepository _cacheRepository) : ICacheService
     {
-        public Task<string?> GetCacheAsync(string cacheKey)
+        public async Task<string?> GetCacheAsync(string cacheKey)
         {
-           var cacheValue = _cacheRepository.GetCacheAsync(cacheKey);
+           var cacheValue = await  _cacheRepository.GetCacheAsync(cacheKey);
             return cacheValue;
         }
 
-        public Task SetCacheAsync(string cacheKey, object cacheValue, TimeSpan duration)
+        public  Task SetCacheAsync(string cacheKey, object cacheValue, TimeSpan duration)
         {
-            var valueToReturn = JsonSerializer.Serialize(cacheValue);
+            var valueToReturn = JsonSerializer.Serialize(cacheValue, new JsonSerializerOptions
+            {
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase
+            });
             return _cacheRepository.SetCacheAsync(cacheKey, valueToReturn, duration);
         }
     }

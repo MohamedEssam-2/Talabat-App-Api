@@ -35,7 +35,7 @@ namespace Presentation_Layer.Attributes
             var resultContext = await next.Invoke();
             if (resultContext.Result is OkObjectResult okObject)
             {
-                await CacheService.SetCacheAsync(key, okObject, TimeSpan.FromSeconds(duration));
+                await CacheService.SetCacheAsync(key, okObject.Value, TimeSpan.FromSeconds(duration));
             }
 
         }

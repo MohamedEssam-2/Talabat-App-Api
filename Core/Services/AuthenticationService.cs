@@ -168,7 +168,8 @@ namespace Services_Layer
             }
             else
             {
-                throw new AddressNotFound(user.UserName);
+                //throw new AddressNotFound(user.UserName);
+                return null;
             }
         }
 
