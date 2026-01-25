@@ -8,18 +8,18 @@ namespace TalabatDemo.CustomMiddleWare
     public class CustomExceptionHandlerMiddleWare
     {
        
-            private readonly RequestDelegate _next;
-            private readonly ILogger<CustomExceptionHandlerMiddleWare> _logger;
-            public CustomExceptionHandlerMiddleWare(RequestDelegate next, ILogger<CustomExceptionHandlerMiddleWare> Logger)
+            private readonly RequestDelegate _next;//next Middleware in the Pipeline
+        private readonly ILogger<CustomExceptionHandlerMiddleWare> _logger;// log errors
+        public CustomExceptionHandlerMiddleWare(RequestDelegate next, ILogger<CustomExceptionHandlerMiddleWare> Logger)
             {
                 _next = next; //next Middleware in the Pipeline
-            _logger = Logger; //catch errors
+                _logger = Logger; //catch errors
             }
             public async Task InvokeAsync(HttpContext Httpcontext)
             {
                 try
             {
-                await _next.Invoke(Httpcontext);
+                await _next.Invoke(Httpcontext); //Invoke the Controller of the endpoint
                 await EndPointNotFoundException(Httpcontext);
 
             }
