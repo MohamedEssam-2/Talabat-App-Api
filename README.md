@@ -85,7 +85,7 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 ---
 
 ## 📁 Project Structure
-```
+```bash
 Talabat-App-Api/
 │
 ├── Core/
@@ -133,6 +133,7 @@ Talabat-App-Api/
 - **DTO Pattern:** Data transfer objects  
 ```
 ---
+
 
 ## 🛠️ Tech Stack
 
