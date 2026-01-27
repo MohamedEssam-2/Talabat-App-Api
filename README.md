@@ -94,21 +94,44 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 
 ---
 
-🏛️ Architecture
-
-The project follows **Clean Architecture principles** with a clear separation of concerns:
+## 📁 Project Structure
 ```
-📁 TalabatDemo (Root)
-├─ 📁 Core
-│  ├─ 📁 Domain        # Domain entities and contracts
-│  ├─ 📁 Services      # Business logic implementation
-│  └─ 📁 Services Abstraction # Service interfaces
-├─ 📁 Infrastructure
-│  ├─ 📁 Persistence Layer # Data access & Repositories
-│  └─ 📁 Presentation Layer # API controllers
-├─ 📁 Shared          # DTOs, Mapping profiles, Utilities
-└─ 📄 Program.cs      # API Entry point and configuration
-```
+Talabat-App-Api/
+│
+├── Core/
+│   ├── Domain/
+│   │   ├── Contracts/          # Repository interfaces
+│   │   ├── Entities/           # Domain models
+│   │   └── Exceptions/         # Custom exceptions
+│   │
+│   ├── Services/
+│   │   ├── MappingProfiles/    # AutoMapper profiles
+│   │   ├── Service/            # Service implementations
+│   │   ├── Specifications/     # Query specifications
+│   │   └── ServiceManager/     # Service aggregation
+│   │
+│   └── Services Abstraction/
+│       └── Interfaces/         # Service contracts
+│
+├── Infrastructure/
+│   ├── Persistence Layer/
+│   │   ├── Data/              # DbContext and configurations
+│   │   ├── Repositories/      # Repository implementations
+│   │   └── Identity/          # Identity DbContext
+│   │
+│   └── Presentation Layer/
+│       ├── Controllers/       # API controllers
+│       └── Attributes/        # Custom attributes
+│
+├── Shared/
+│   ├── DTOs/                  # Data Transfer Objects
+│   ├── Error Models/          # Error response models
+│   └── Authentication/        # JWT configuration models
+│
+└── TalabatDemo/               # API startup project
+    ├── CustomMiddleware/      # Exception handling middleware
+    ├── Extensions/            # Service registration extensions
+    └── Factory/               # Response factories
 
 ## Key Patterns Implemented
 
@@ -118,7 +141,7 @@ The project follows **Clean Architecture principles** with a clear separation of
 - **Dependency Injection:** Loose coupling  
 - **Factory Pattern:** Service creation  
 - **DTO Pattern:** Data transfer objects  
-
+```
 ---
 ## 🔒 Security Features
 
