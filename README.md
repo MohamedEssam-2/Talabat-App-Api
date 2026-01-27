@@ -72,6 +72,17 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 
 ---
 
+## 🔒 Security Features
+
+- **JWT-based Authentication**  
+- **Password Hashing** with ASP.NET Core Identity  
+- **Role-based Authorization**  
+- **Secure Payment Processing** with Stripe  
+- **Input Validation and Sanitization**  
+- **Global Exception Handling**  
+- **HTTPS Enforcement**  
+---
+
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -143,16 +154,7 @@ Talabat-App-Api/
 - **DTO Pattern:** Data transfer objects  
 ```
 ---
-## 🔒 Security Features
 
-- **JWT-based Authentication**  
-- **Password Hashing** with ASP.NET Core Identity  
-- **Role-based Authorization**  
-- **Secure Payment Processing** with Stripe  
-- **Input Validation and Sanitization**  
-- **Global Exception Handling**  
-- **HTTPS Enforcement**  
----
 
 ## 🚀 Getting Started
 
@@ -174,7 +176,7 @@ git clone https://github.com/MohamedEssam-2/Talabat-App-Api.git
 cd Talabat-App-Api
 ---
 ```
-## 👨‍💻 Author
+## Author
 
 **Mohamed Essam**  
 
