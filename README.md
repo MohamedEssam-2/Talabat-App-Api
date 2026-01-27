@@ -10,7 +10,7 @@ A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8**, 
 - [Features](#-features) 
 - [Project Structure](#-Project-Structure)
 - [Security Features](#-Security-Features)
-- [Tech Stack](#-tech-stack)
+- [Tech Stack](#-Tech-Stack)
 - [Getting Started](#-getting-started) 
 - [Author](#author)
 
@@ -134,7 +134,6 @@ Talabat-App-Api/
 
 ---
 
-
 ## 🛠️ Tech Stack
 
 ### Backend
@@ -175,8 +174,8 @@ Clone the repository and navigate into the project directory:
 ```bash
 git clone https://github.com/MohamedEssam-2/Talabat-App-Api.git
 cd Talabat-App-Api
----
 ```
+---
 ## Author
 
 **Mohamed Essam**  
