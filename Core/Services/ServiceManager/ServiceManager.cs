@@ -13,6 +13,7 @@ using Services_Abstraction;
 using Services_Layer.Service;
 using Services_Layer.Service.BasketService;
 using Services_Layer.Service.OrderService;
+using Services_Layer.Service.PaymentService;
 using Services_Layer.Service.ProductService;
 using Shared.Authenticaion;
 
@@ -39,5 +40,8 @@ namespace Services_Layer.ServiceManger
 
         public ICacheService CacheService => _lazyCacheService.Value;
 
+        private readonly Lazy<IPaymentService> _lazyPaymentService = new Lazy<IPaymentService>(() => new PaymentService(_configuration,_basketRepository,unitOfWork,mapper));
+
+        public IPaymentService PaymentService => _lazyPaymentService.Value;
     }
 }

@@ -9,6 +9,7 @@ using Services_Abstraction;
 using Services_Layer.Service;
 using Services_Layer.Service.BasketService;
 using Services_Layer.Service.OrderService;
+using Services_Layer.Service.PaymentService;
 using Services_Layer.Service.ProductService;
 using Services_Layer.ServiceManger;
 using Shared.Authenticaion;
@@ -39,6 +40,9 @@ namespace Services_Layer
 
             Services.AddScoped<ICacheService,CacheService>();
             Services.AddScoped<Func<ICacheService>>(serviceProvider => () => serviceProvider.GetRequiredService<ICacheService>());
+
+            Services.AddScoped<IPaymentService, PaymentService>();
+            Services.AddScoped<Func<IPaymentService>>(serviceProvider => () => serviceProvider.GetRequiredService<IPaymentService>());
             return Services;
         }
     }

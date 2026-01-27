@@ -314,6 +314,22 @@
     ]
   },
   {
+    "ContainingType": "Presentation_Layer.Controllers.PaymentsController",
+    "Method": "CreateOrUpdatePaymentIntent",
+    "RelativePath": "api/Payments/{basketId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "basketId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetAllProductsAsync",
     "RelativePath": "api/Products",
