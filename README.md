@@ -83,28 +83,6 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 - **HTTPS Enforcement**  
 ---
 
-## 🛠️ Tech Stack
-
-### Backend
-- **.NET 8.0**
-- **ASP.NET Core Web API**
-- **Entity Framework Core 8.0**
-- **SQL Server**
-- **Redis** (`StackExchange.Redis`)
-- **AutoMapper 15.1.0**
-- **Stripe.NET 50.2.0**
-
-### Authentication & Security
-- **ASP.NET Core Identity**
-- **JWT Bearer Authentication**
-- **Microsoft.IdentityModel.Tokens**
-
-### Additional Libraries
-- **Swashbuckle (Swagger)**
-- **Newtonsoft.Json**
-
----
-
 ## 📁 Project Structure
 ```
 Talabat-App-Api/
@@ -155,6 +133,27 @@ Talabat-App-Api/
 ```
 ---
 
+## 🛠️ Tech Stack
+
+### Backend
+- **.NET 8.0**
+- **ASP.NET Core Web API**
+- **Entity Framework Core 8.0**
+- **SQL Server**
+- **Redis** (`StackExchange.Redis`)
+- **AutoMapper 15.1.0**
+- **Stripe.NET 50.2.0**
+
+### Authentication & Security
+- **ASP.NET Core Identity**
+- **JWT Bearer Authentication**
+- **Microsoft.IdentityModel.Tokens**
+
+### Additional Libraries
+- **Swashbuckle (Swagger)**
+- **Newtonsoft.Json**
+
+---
 
 ## 🚀 Getting Started
 
