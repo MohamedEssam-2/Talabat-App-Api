@@ -101,6 +101,7 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 🏛️ Architecture
 
 The project follows **Clean Architecture principles** with a clear separation of concerns:
+```
 📁 TalabatDemo (Root)
 ├─ 📁 Core
 │  ├─ 📁 Domain        # Domain entities and contracts
@@ -111,4 +112,4 @@ The project follows **Clean Architecture principles** with a clear separation of
 │  └─ 📁 Presentation Layer # API controllers
 ├─ 📁 Shared          # DTOs, Mapping profiles, Utilities
 └─ 📄 Program.cs      # API Entry point and configuration
-
+```
