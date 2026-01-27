@@ -122,7 +122,7 @@ Talabat-App-Api/
     ├── CustomMiddleware/      # Exception handling middleware
     ├── Extensions/            # Service registration extensions
     └── Factory/               # Response factories
-
+```
 ## Key Patterns Implemented
 
 - **Repository Pattern:** Abstraction over data access  
@@ -131,7 +131,7 @@ Talabat-App-Api/
 - **Dependency Injection:** Loose coupling  
 - **Factory Pattern:** Service creation  
 - **DTO Pattern:** Data transfer objects  
-```
+
 ---
 
 
