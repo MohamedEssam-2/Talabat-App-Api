@@ -102,7 +102,7 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 
 The project follows **Onion Architecture principles** with a clear separation of concerns:
 
-##│
+
 ├── Core/
 │   ├── Domain/                 # Domain entities and contracts
 │   ├── Services/               # Business logic implementation
