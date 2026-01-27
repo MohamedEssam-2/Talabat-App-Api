@@ -19,5 +19,19 @@ namespace Presentation_Layer.Controllers
             //if (basket == null) return BadRequest(new ProblemDetails { Title = "Problem with your basket" });
             return Ok(basket);
         }
+
+        [HttpPost("webhook")]
+        public async Task<IActionResult> Index()
+        {
+            var json = await new StreamReader(HttpContext.Request.Body).ReadToEndAsync();
+
+            //Logic
+            await serviceManager.PaymentService.UpdatePaymentStatus(json,
+                Request.Headers["Stripe-Signature"]);
+
+            return new EmptyResult();
+
+
+        }
     }
 }

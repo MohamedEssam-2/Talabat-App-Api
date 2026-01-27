@@ -330,6 +330,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Presentation_Layer.Controllers.PaymentsController",
+    "Method": "Index",
+    "RelativePath": "api/Payments/webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Presentation_Layer.Controllers.ProductsController",
     "Method": "GetAllProductsAsync",
     "RelativePath": "api/Products",

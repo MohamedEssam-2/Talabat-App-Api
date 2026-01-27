@@ -12,5 +12,9 @@ namespace Services_Abstraction
         // Create Payment Intent
         // Test
         Task<BasketDTO> CreateOrUpdatePaymentIntent(string basketId);
+
+        public Task UpdatePaymentStatus(string jsonRequest, string stripeHeader);
+
+
     }
 }
