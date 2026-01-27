@@ -25,6 +25,16 @@ namespace Services_Layer.Service.OrderService
             var basket = await _basketRepository.GetBasketAsync(orderDto.BasketId)
                 ?? throw new BasketNotFoundExceptions(orderDto.BasketId);
 
+            // Ensure PaymentIntentId is not null
+            ArgumentNullException.ThrowIfNull(basket.PaymentIntentId);
+            var OrderRepo = _unitOfWork.GetRepository<Order, Guid>();
+            var OrderSpec= new OrderWithPaymentIntentIdSpecification(basket.PaymentIntentId);
+            var exisitingOrder = await OrderRepo.GetByIdAsync(OrderSpec);
+            if(exisitingOrder is not null)
+            {
+                OrderRepo.Remove(exisitingOrder);
+            }
+            //Create Order Items
             List<OrderItem> orderItems = [];
             foreach (var item in basket.Items)
             {
@@ -51,10 +61,10 @@ namespace Services_Layer.Service.OrderService
 
             var subtotal = orderItems.Sum(item => item.Price * item.Quantity);
 
-            var order = new Order(email, Address,deliveryMethod.Id,orderItems,subtotal);
+            var order = new Order(email, Address,deliveryMethod.Id,orderItems,subtotal,basket.PaymentIntentId);
             try
             {
-                await _unitOfWork.GetRepository<Order, Guid>().AddAsync(order);
+                await OrderRepo.AddAsync(order); ;
                 await _unitOfWork.SaveChangesAsync();
             }
             catch (Exception ex)

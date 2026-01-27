@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AutoMapper;
 using Domain.Contracts;
 using Domain.Execptions;
 using DomainLayer.Models.OrderModels;
@@ -14,7 +15,7 @@ using Product = Domain.Entitys.Product.Product;
 
 namespace Services_Layer.Service.PaymentService
 {
-    public class PaymentService (IConfiguration _configuration,IBasketRepository basketRepository,IUnitOfWork unitOfWork) : IPaymentService
+    public class PaymentService (IConfiguration _configuration,IBasketRepository basketRepository,IUnitOfWork unitOfWork , IMapper _mapper) : IPaymentService
     {
         public async Task<BasketDTO> CreateOrUpdatePaymentIntent(string basketId)
         {
@@ -41,6 +42,33 @@ namespace Services_Layer.Service.PaymentService
             //Calculate Total Amount =Product Price * Quantity+ DeliveryPrice
             basket.ShippingPrice = Delivery.Price;
             var totalAmount = (long)(basket.Items.Sum(i => i.Price * i.Quantity )+Delivery.Price) * 100 ;
+
+            //Create Payemnt Intent Service
+            var service = new PaymentIntentService();
+            if (basket.PaymentIntentId is null)
+            {
+                var options= new PaymentIntentCreateOptions
+                {
+                    Amount = totalAmount,
+                    Currency = "USD",
+                    PaymentMethodTypes = [ "card" ]
+                };
+                var intent = await service.CreateAsync(options);
+                basket.PaymentIntentId = intent.Id;
+                basket.ClientSecret = intent.ClientSecret;
+            }
+            else
+            {
+                var options = new PaymentIntentUpdateOptions
+                {
+                    Amount = totalAmount
+                };
+                   await service.UpdateAsync(basket.PaymentIntentId, options);
+
+            }
+            await basketRepository.CreateOrUpdate(basket);
+            //Map Basket to BasketDTO
+            return _mapper.Map<BasketDTO>(basket);
         }
 
     }

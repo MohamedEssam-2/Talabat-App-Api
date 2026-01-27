@@ -15,13 +15,14 @@ namespace DomainLayer.Models.OrderModels
         {
             
         }
-        public Order(string userEmail, OrderAddress address, int deliveryMethodId, ICollection<OrderItem> items, decimal subTotal)
+        public Order(string userEmail, OrderAddress address, int deliveryMethodId, ICollection<OrderItem> items, decimal subTotal, string paymentIntentId)
         {
             UserEmail = userEmail;
             Address = address;
             DeliveryMethodId = deliveryMethodId;
             Items = items;
             SubTotal = subTotal;
+            PaymentIntentId = paymentIntentId;
         }
 
         public string UserEmail { get; set; } = null!;
@@ -36,5 +37,6 @@ namespace DomainLayer.Models.OrderModels
         [NotMapped]
         public decimal Total { get => SubTotal + DeliveryMethod.Price; } //NotMapped Attribute to exclude this property from being mapped to a database column as it is a computed property.
 
+        public string PaymentIntentId { get; set; }
     }
 }
