@@ -100,18 +100,22 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 
 ## 🏛️ Architecture
 
-The project follows **Clean Architecture principles** with a clear separation of concerns:
+The project follows **Onion Architecture principles** with a clear separation of concerns:
 
+##│
 ├── Core/
 │   ├── Domain/                 # Domain entities and contracts
 │   ├── Services/               # Business logic implementation
 │   └── Services Abstraction/   # Service interfaces
 │
+│
 ├── Infrastructure/
 │   ├── Persistence Layer/      # Data access and repositories
 │   └── Presentation Layer/     # API controllers
 │
+│
 ├── Shared/                     # Shared DTOs and utilities
+│
 │
 └── TalabatDemo/               # API entry point and configuration
 
