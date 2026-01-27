@@ -11,7 +11,7 @@ A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8**, 
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture) 
 - [Getting Started](#-getting-started) 
-- [Author](#-Author)
+- [Author](#-%E2%80%8D-author)
 
 ---
 
