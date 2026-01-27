@@ -1,4 +1,4 @@
-# 🍕 Talabat Food Delivery API
+__# 🍕 Talabat Food Delivery API
 
 A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8** , following **Onion Architecture principles** and industry best practices.
 
@@ -138,7 +138,7 @@ Talabat-App-Api/
 
 ---
 
-## Tech Stack
+## ✔ Tech Stack
 
 ### Backend
 - **.NET 8.0**
