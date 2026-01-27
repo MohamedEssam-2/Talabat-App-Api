@@ -124,6 +124,16 @@ The project follows **Clean Architecture principles** with a clear separation of
 - **DTO Pattern:** Data transfer objects  
 
 ---
+## 🔒 Security Features
+
+- **JWT-based Authentication**  
+- **Password Hashing** with ASP.NET Core Identity  
+- **Role-based Authorization**  
+- **Secure Payment Processing** with Stripe  
+- **Input Validation and Sanitization**  
+- **Global Exception Handling**  
+- **HTTPS Enforcement**  
+---
 
 ## 🚀 Getting Started
 
@@ -143,3 +153,10 @@ Clone the repository and navigate into the project directory:
 ```bash
 git clone https://github.com/MohamedEssam-2/Talabat-App-Api.git
 cd Talabat-App-Api
+---
+
+## 👨‍💻 Author
+
+**Mohamed Essam**  
+
+GitHub: [@MohamedEssam-2](https://github.com/MohamedEssam-2)
