@@ -99,16 +99,17 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 ---
 
 🏛️ Architecture
-The project follows Onion Architecture principles with a clear separation of concerns:
 
-Bash
-└── 📁 TalabatDemo (Root)
-    ├── 📁 Core
-    │   ├── 📁 Domain                # Domain entities and business contracts
-    │   ├── 📁 Services              # Implementation of business logic
-    │   └── 📁 Services Abstraction  # Interfaces for services (decoupling)
-    ├── 📁 Infrastructure
-    │   └── 📁 Persistence Layer     # Data access, EF Core, and Repositories
-    ├── 📁 Presentation Layer        # API Controllers and Request handling
-    ├── 📁 Shared                    # DTOs, Mapping profiles, and Utilities
-    └── 📁 API Entry Point           # Program.cs and Configuration
+The project follows **Clean Architecture principles** with a clear separation of concerns:
+
+📁 TalabatDemo (Root)
+├─ 📁 Core
+│  ├─ 📁 Domain        # Domain entities and contracts
+│  ├─ 📁 Services      # Business logic implementation
+│  └─ 📁 Services Abstraction # Service interfaces
+├─ 📁 Infrastructure
+│  ├─ 📁 Persistence Layer # Data access & Repositories
+│  └─ 📁 Presentation Layer # API controllers
+├─ 📁 Shared          # DTOs, Mapping profiles, Utilities
+└─ 📄 Program.cs      # API Entry point and configuration
+
