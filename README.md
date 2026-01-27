@@ -8,7 +8,7 @@ A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8** ,
 
 - [Overview](#-overview) 
 - [Features](#-features)
-- [Technical Features](#Technical-Features)
+- [Technical Features](#-Technical-Features)
 - [Project Structure](#-Project-Structure)
 - [Security Features](#-Security-Features)
 - [Tech Stack](#-Tech-Stack)
@@ -64,7 +64,7 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
   
 ---
 
-## Technical Features
+## ✨Technical Features
 
 - 🏗️ Onion Architecture with **Separation of Concerns**
 - 📊 Repository Pattern & Unit of Work
@@ -156,7 +156,6 @@ Talabat-App-Api/
 
 ### Additional Libraries
 - **Swashbuckle (Swagger)**
-- **Newtonsoft.Json**
 
 ---
 
@@ -171,7 +170,9 @@ Before running the project, make sure you have the following installed:
 - [Redis](https://redis.io/)  
 - [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)  
 
-### Installation
+---
+
+## Installation
 
 Clone the repository and navigate into the project directory:
 
