@@ -113,3 +113,33 @@ The project follows **Clean Architecture principles** with a clear separation of
 ├─ 📁 Shared          # DTOs, Mapping profiles, Utilities
 └─ 📄 Program.cs      # API Entry point and configuration
 ```
+
+## Key Patterns Implemented
+
+- **Repository Pattern:** Abstraction over data access  
+- **Unit of Work:** Transaction management  
+- **Specification Pattern:** Flexible query composition  
+- **Dependency Injection:** Loose coupling  
+- **Factory Pattern:** Service creation  
+- **DTO Pattern:** Data transfer objects  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Before running the project, make sure you have the following installed:
+
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)  
+- [SQL Server](https://www.microsoft.com/en-us/sql-server)  
+- [Redis](https://redis.io/)  
+- [Visual Studio 2022](https://visualstudio.microsoft.com/) or [VS Code](https://code.visualstudio.com/)  
+
+### Installation
+
+Clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/MohamedEssam-2/Talabat-App-Api.git
+cd Talabat-App-Api
