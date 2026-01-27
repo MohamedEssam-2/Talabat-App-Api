@@ -1,6 +1,6 @@
 # 🍕 Talabat Food Delivery API
 
-A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8**, following **Clean Architecture principles** and industry best practices.
+A comprehensive **e-commerce food delivery RESTful API** built with **.NET 8**, following **Onion Architecture principles** and industry best practices.
 
 ---
 
@@ -62,7 +62,7 @@ Talabat API is a robust backend solution for a food delivery platform. It provid
 - Secure payment processing
 
 ### Technical Features
-- 🏗️ Clean Architecture with **Separation of Concerns**
+- 🏗️ Onion Architecture with **Separation of Concerns**
 - 📊 Repository Pattern & Unit of Work
 - 🔄 AutoMapper for object-to-object mapping
 - 🎯 Specification Pattern for flexible querying
